@@ -4,7 +4,7 @@ import moment from 'moment';
 const DateDisplay = ({ date }) => {
     return (
         <section className="date-display">
-            is: {moment(date).format('YYYY-MM-DD hh:mm')}
+            Date is: {moment(date).format('YYYY-MM-DD hh:mm')}
         </section>
     )
 }
